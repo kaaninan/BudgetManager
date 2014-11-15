@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Budget Manager</string>
+    
+    <string name="ekleAction">Add</string>
+    <string name="gelirSilOptions">Delete From Income</string>
+    <string name="giderSilOptions">Delete From Expense</string>
+    
+    <string name="gelirText">Income</string>
+    <string name="giderText">Expense</string>
+    
+    <string name="altToplamText">Total:</string>
+    
+    <string name="altText">Current Balance: </string>
+    <string name="toplamText"></string>
+    <string name="toplamTextTL">$</string>
+    
+    <string name="gelirRadio">Income</string>
+    <string name="giderRadio">Expense</string>
+    
+    <string name="tutarEdit">Amount</string>
+    <string name="aciklamaEdit">Description</string>
+    
+    <string name="contextGuncelle">Update</string>
+    <string name="contextSil">Delete</string>
+    
+    <string name="list:">-</string>
+    <string name="listTL">$</string>
+    
+    <string name="contextMenuTitle">Options</string>
+    
+    <string name="dialogUyari">Warning</string>
+    <string name="dialogUyariMesaj">Do you want to delete?</string>
+    
+    <string name="dialogCancel">Cancel</string>
+    <string name="dialogKaydet">Save</string>
+    
+</resources>

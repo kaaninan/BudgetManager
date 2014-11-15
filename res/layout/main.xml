@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="75dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/layoutGelirGider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/marginAltLayoutHeight"
+        android:paddingBottom="@dimen/paddingGelirGiderLayout"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/layoutGelir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#88888888"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textGelir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/gelirText"
+                android:textSize="@dimen/size"
+                android:background="#BBBBBBBB" />
+
+            <ListView
+                android:id="@+id/listGelir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding"
+                android:padding="@dimen/padding" >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutGider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_weight="1"
+            android:background="#88888888"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textGider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/giderText"
+                android:textSize="@dimen/size"
+                android:background="#BBBBBBBB" />
+
+            <ListView
+                android:id="@+id/listGider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding"
+                android:padding="@dimen/padding" >
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layoutGelirGiderToplam"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightAltGelirGiderToplam"
+        android:layout_alignBottom="@id/layoutGelirGider"
+        android:layout_marginBottom="@dimen/margin"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+    	<LinearLayout
+    	    android:id="@+id/layoutGelirALt"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:layout_marginRight="@dimen/padding"
+    	    android:layout_weight="1"
+    	    android:background="#BBB"
+    	    android:gravity="center"
+    	    android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textGelirToplam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                	android:textSize="24sp"
+                	android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                
+                <TextView
+                    android:id="@+id/textGelirTL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/birim"
+                	android:textSize="24sp"
+                	android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+    		<LinearLayout
+    		    android:id="@+id/layoutGiderAlt"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="match_parent"
+    		    android:layout_marginLeft="@dimen/padding"
+    		    android:layout_weight="1"
+    		    android:background="#BBB"
+    		    android:gravity="center"
+    		    android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textGiderToplam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                	android:textSize="24sp"
+                	android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+                
+                <TextView
+                    android:id="@+id/textGiderTL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:text="TL"
+                	android:textSize="@dimen/size"
+                	android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+    	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAlt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marginAltLayoutHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/padding"
+        android:background="#AAA"
+        android:orientation="vertical" >
+    		
+        <LinearLayout
+        	android:id="@+id/layoutAltText"
+        	android:layout_width="match_parent"
+        	android:layout_height="35dp"
+        	android:orientation="horizontal"
+        	android:gravity="center" >
+
+        	<TextView
+            	android:id="@+id/textAlt"
+           		android:layout_width="wrap_content"
+            	android:layout_height="35dp"
+      			android:layout_gravity="center_horizontal"
+            	android:text="@string/altText"
+            	android:textSize="@dimen/sizeAlt" />
+        	
+		</LinearLayout>
+        	
+        <LinearLayout
+       		android:id="@+id/layoutAltTL"
+       		android:layout_width="match_parent"
+       		android:layout_height="35dp"
+       		android:layout_marginBottom="@dimen/padding"
+       		android:orientation="horizontal"
+       		android:gravity="center" >
+       	
+        	<TextView
+       	    	android:id="@+id/textToplam"
+       	    	android:layout_width="wrap_content"
+       	    	android:layout_height="35dp"
+       	    	android:text="@string/toplamText"
+       	    	android:textSize="@dimen/sizeAltToplam"
+       	 		android:textStyle="bold"
+       	 		android:layout_marginRight="@dimen/padding" />
+       	 
+  	 		<TextView
+           		android:id="@+id/textToplamTL"
+           		android:layout_width="wrap_content"
+           		android:layout_height="35dp"
+           		android:text="TL"
+           		android:textSize="@dimen/sizeAltToplam"
+           		android:textStyle="bold" />
+    	</LinearLayout>
+    	
+	</LinearLayout>
+    
+</RelativeLayout>

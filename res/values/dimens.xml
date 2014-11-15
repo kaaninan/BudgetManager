@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    
+    <dimen name="marginAltLayoutHeight">75dp</dimen>
+    <dimen name="paddingGelirGiderLayout">45dp</dimen>
+    
+    <dimen name="heightAltGelirGiderToplam">40dp</dimen>
+    
+    <dimen name="sizeDialog">19sp</dimen>
+    <dimen name="list">21sp</dimen>
+    <dimen name="size">24sp</dimen>
+    <dimen name="sizeAlt">26sp</dimen>
+    <dimen name="sizeAltToplam">28sp</dimen>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radioGelirGider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioGelir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/gelirRadio"
+                android:layout_marginRight="@dimen/margin"
+                android:textSize="@dimen/sizeDialog" />
+
+            <RadioButton
+                android:id="@+id/radioGider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/giderRadio"
+                android:textSize="@dimen/sizeDialog" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTutar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_marginRight="@dimen/padding"
+            android:hint="@string/tutarEdit"
+            android:inputType="numberDecimal"
+            android:maxLength="10" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextAciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_marginRight="@dimen/padding"
+            android:layout_marginBottom="@dimen/margin"
+            android:hint="@string/aciklamaEdit"
+            android:inputType="textCapWords" />"
+
+</LinearLayout>

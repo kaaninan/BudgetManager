@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Budget Manager</string>
+    
+    <string name="ekleAction">Ekle</string>
+    <string name="gelirSilOptions">Gelirleri Sil</string>
+    <string name="giderSilOptions">Giderleri Sil</string>
+    
+    <string name="gelirText">Gelirler</string>
+    <string name="giderText">Giderler</string>
+    
+    <string name="altToplamText">Toplam:</string>
+    
+    <string name="altText">Net Bütçe: </string>
+    <string name="birim">TL</string>
+    
+    <string name="gelirRadio">Gelir</string>
+    <string name="giderRadio">Gider</string>
+    
+    <string name="tutarEdit">Tutar</string>
+    <string name="aciklamaEdit">Açıklama</string>
+    
+    <string name="contextGuncelle">Güncelle</string>
+    <string name="contextSil">Sil</string>
+    
+    <string name="list:">-</string>
+    
+    <string name="contextMenuTitle">Seçenekler</string>
+    
+    <string name="dialogUyari">Uyarı</string>
+    <string name="dialogUyariMesaj">Silmek istediğinize emin misiniz?</string>
+    
+    <string name="dialogCancel">İptal</string>
+    <string name="dialogKaydet">Kaydet</string>
+    <string name="toastMesaj">Eksik alanları doldurun!</string>
+    
+</resources>
